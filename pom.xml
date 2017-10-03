@@ -14,7 +14,7 @@
   	<repository>
   		<id>objectdb</id>
   		<name>objectDB Repository</name>
-  		<url>m2.objectdb.com</url>
+  		<url>http://m2.objectdb.com</url>
   	</repository>
   	<repository>
     	<id>com.springsource.repository.bundles.release</id>
@@ -137,7 +137,7 @@
 			<artifactId>maven-war-plugin</artifactId>
 				<version>2.4</version>
 				<configuration>
-					<warSourceDirectory>WebContent</warSourceDirectory>
+					<warSourceDirectory>WEB-INF</warSourceDirectory>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 		</plugin>

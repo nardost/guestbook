@@ -21,7 +21,6 @@ public class Guest implements Serializable {
 		this.signingDate = new Date(System.currentTimeMillis());
 	}
 	
-	
 	public Long getId() {
 		return id;
 	}
