@@ -14,8 +14,9 @@
 <input type="submit" value="Register">
 </form>
 <table>
+<tr><td>Guest ID</td><td>Name</td><td>Signed On</td></tr>
 <% for(Guest guest : guestDao.getAllGuests()) { %>
-	<tr><td><%= guest.getId() %></td><td><%= guest.getName() %></td>
+	<tr><td><%= guest.getId() %></td><td><%= guest.getName() %></td><td><%= guest.getSigningDate() %></td>
 <% } %>
 </table>
 </body>
