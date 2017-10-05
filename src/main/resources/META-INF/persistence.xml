@@ -5,7 +5,7 @@
 	<persistence-unit name="GuesbookPU" transaction-type="JTA">
 		<provider>com.objectdb.jpa.Provider</provider>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="$objectdb./db/guests.odb"/>
+			<property name="javax.persistence.jdbc.url" value="$objectdb/db/guests.odb"/>
 			<property name="javax.persistence.jdbc.user" value="admin" />
 			<property name="javax.persistence.jdbc.password" value="admin" />
 		</properties>
